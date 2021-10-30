@@ -1,0 +1,30 @@
+{
+  "database": {
+    "development": {
+      "username": "root",
+      "password": "godfather",
+      "database": "demo",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "database_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  },
+  "auth": {
+    "secret_access_token": "godfather",
+    "secret_refresh_access_token": "godfather2.0"
+  },
+  "passwordSaltRounds": 10 
+}

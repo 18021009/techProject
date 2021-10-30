@@ -1,0 +1,32 @@
+{
+    "db": {
+        "development": {
+            "username": "root",
+            "password": "godfather",
+            "database": "ecoapp",
+            "host": "localhost",
+            "dialect": "mysql"
+        },
+        "test": {
+            "username": "root",
+            "password": null,
+            "database": "database_test",
+            "host": "127.0.0.1",
+            "dialect": "mysql"
+        },
+        "production": {
+            "username": "root",
+            "password": null,
+            "database": "database_production",
+            "host": "127.0.0.1",
+            "dialect": "mysql"
+        }
+    },
+    "passwordSaltRounds": 10,
+    "auth": {
+        "SECRET_ACCESS_TOKEN_KEY": "godfather",
+        "SECRET_REFRESH_TOKEN_KEY": "godfather2.0",
+        "SECRET_ACCESS_TOKEN_EXPIRE": 180000,
+        "SECRET_REFRESH_TOKEN_EXPIRE": 1800
+    }
+}
